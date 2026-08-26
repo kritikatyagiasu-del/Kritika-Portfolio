@@ -242,6 +242,10 @@
   .project-link{display:inline-flex;align-items:center;gap:6px;font-size:13px;text-decoration:none;color:var(--accent2);border-bottom:1px solid transparent;transition:border-color .25s var(--ease);}
   .project-link:hover{border-color:var(--accent2);}
   .project-link svg{width:12px;height:12px;}
+  .project-impact{
+    margin-top:2px;font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--accent2);
+    padding-top:12px;border-top:1px solid var(--line);
+  }
 
   /* references */
   .quote-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:22px;}
@@ -359,7 +363,7 @@
       <p class="lede reveal">Product craft, technical depth, and the soft skills that keep cross-functional teams moving in the same direction.</p>
       <div class="skill-grid">
         <div class="skill-card reveal"><h3>Product Management</h3><div class="chip-row"><span class="chip">User stories</span><span class="chip">Roadmapping</span><span class="chip">Backlog prioritization</span><span class="chip">Stakeholder management</span><span class="chip">Market analysis</span><span class="chip">Lifecycle management</span></div></div>
-        <div class="skill-card reveal"><h3>Technical Proficiency</h3><div class="chip-row"><span class="chip">Claude</span><span class="chip">Salesforce</span><span class="chip">SQL / SOQL</span><span class="chip">Excel</span><span class="chip">Power BI</span><span class="chip">Tableau</span><span class="chip">Agentic AI</span></div></div>
+        <div class="skill-card reveal"><h3>Technical Proficiency</h3><div class="chip-row"><span class="chip">Claude</span><span class="chip">Salesforce</span><span class="chip">Google AI Studio</span><span class="chip">SQL / SOQL</span><span class="chip">Excel</span><span class="chip">Power BI</span><span class="chip">Tableau</span><span class="chip">Agentic AI</span></div></div>
         <div class="skill-card reveal"><h3>Communication</h3><div class="chip-row"><span class="chip">Facilitating workshops</span><span class="chip">Presenting to stakeholders</span><span class="chip">Clear documentation</span><span class="chip">Alignment on priorities</span><span class="chip">Conflicting priorities</span></div></div>
         <div class="skill-card reveal"><h3>Project Management</h3><div class="chip-row"><span class="chip">Agile</span><span class="chip">JIRA</span><span class="chip">Trello</span><span class="chip">Confluence</span><span class="chip">Sprint planning</span><span class="chip">Cross-functional coordination</span></div></div>
         <div class="skill-card reveal"><h3>Master Data Management</h3><div class="chip-row"><span class="chip">Source-of-truth design</span><span class="chip">API integration</span><span class="chip">Informatica</span><span class="chip">Boundary applications</span></div></div>
@@ -520,28 +524,18 @@
           </div>
         </div>
         <div class="project-card reveal">
-          <div class="project-top"><span class="project-name">EduAnalytics Platform</span><span class="tag">Edtech</span></div>
-          <p class="project-desc">An analytics platform built with AWS and Python that helps educational institutions track and analyze student performance and engagement.</p>
-          <div class="chip-row"><span class="chip">Agile</span><span class="chip">UX Research</span><span class="chip">Platform Development</span></div>
+          <div class="project-top"><span class="project-name">Personal Portfolio Application</span><span class="tag">Information Technology</span></div>
+          <p class="project-desc">This site — an interactive portfolio app, vibe-coded with data pulled directly from Notion.</p>
+          <div class="chip-row"><span class="chip">Vibe Coding</span><span class="chip">Claude Cowork</span></div>
           <div class="project-foot">
-            <a class="project-link" href="https://github.com/twbs/bootstrap" target="_blank" rel="noopener">View on GitHub <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 14L14 6M8 6h6v6"/></svg></a>
+            <a class="project-link" href="https://kritikatyagiasu-del.github.io/Kritika-Portfolio/" target="_blank" rel="noopener">View Live <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 14L14 6M8 6h6v6"/></svg></a>
           </div>
         </div>
-        <div class="project-card reveal">
-          <div class="project-top"><span class="project-name">FinServe SOFI CRM</span><span class="tag">Fintech</span></div>
-          <p class="project-desc">Led cross-functional teams building a new CRM system to improve client interactions and streamline financial advisory processes.</p>
-          <div class="chip-row"><span class="chip">Pricing Strategy</span><span class="chip">Ecosystem Development</span><span class="chip">Agile</span></div>
-          <div class="project-foot">
-            <a class="project-link" href="https://github.com/twbs/bootstrap" target="_blank" rel="noopener">View on GitHub <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 14L14 6M8 6h6v6"/></svg></a>
-          </div>
-        </div>
-        <div class="project-card reveal">
-          <div class="project-top"><span class="project-name">ShopSmart AI Recommendation Engine</span><span class="tag">Ecommerce</span></div>
-          <p class="project-desc">A machine learning model that delivers personalized product recommendations, increasing customer engagement and sales.</p>
-          <div class="chip-row"><span class="chip">PySpark</span><span class="chip">UX Research</span><span class="chip">Pricing Strategy</span></div>
-          <div class="project-foot">
-            <a class="project-link" href="https://github.com/twbs/bootstrap" target="_blank" rel="noopener">View on GitHub <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 14L14 6M8 6h6v6"/></svg></a>
-          </div>
+        <div class="project-card reveal" style="grid-column:1/-1;">
+          <div class="project-top"><span class="project-name">Data Migration for Digital Transformation</span><span class="tag">Information Technology</span></div>
+          <p class="project-desc">Combined SQL, Excel, Salesforce SOQL, Melissa address verification, Dun &amp; Bradstreet DUNS data, and Power BI to transform 40 years of inconsistent data into one standard format across Salesforce and boundary systems.</p>
+          <div class="chip-row"><span class="chip">UX Research</span><span class="chip">User Journeys</span><span class="chip">Usability Testing</span><span class="chip">Data Transformation</span></div>
+          <div class="project-impact">$150M saved in consultant fees · 95% migration accuracy · delivered in 8 months</div>
         </div>
       </div>
     </div></div></div>
